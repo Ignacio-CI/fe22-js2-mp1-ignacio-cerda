@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marhey:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
+
+    <title>Sten, sax och påse</title>
+</head>
+<body>
+    <div class="grid-container">
+        <h1 id="header">Sten, sax och påse</h1>
+        <form id="input-container">
+            <label for="username-input">Skriv in ditt namn:</label>
+            <input type="text" name="name" id="username-input">
+            <button id="enter-username-btn">Enter namn</button>
+        </form>
+        <div id="display-user-info">
+            <h2 id="username"></h2>
+        </div>
+        <div id="highscore-list-container">
+            <div id="highscores-list">
+                <h3>Highscores</h3>
+            </div>
+        </div>
+        <div id="user-choices-supercontainer">
+            <div id="user-choices-container">
+                <img src="./img/sten.png" alt="Sten" class="choice-btn">
+                <img src="./img/sax.png" alt="Sax" class="choice-btn">
+                <img src="./img/pase.png" alt="Påse" class="choice-btn">
+            </div>
+            <h3 id="user-points"></h3>    
+        </div>  
+        <div id="computer-choice-supercontainer">
+            <div id="computer-choice-container">
+                <img src="" alt="" id="computer-choice">
+                <h3 id="computer-points"></h3>
+            </div>
+        </div>  
+        
+        <h1 id="round-counter"></h1>
+    </div>
+</body>
+</html>
